@@ -14,7 +14,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="#">Spring 3 MVC Project</a>
+		<a class="navbar-brand" href="#">DEVOPS 9 DEMO SITE</a>
 	</div>
   </div>
 </nav>
@@ -24,11 +24,11 @@
 	<h1>${title}</h1>
 	<p>
 		<c:if test="${not empty name}">
-			Hello ${name}
+			HI ${name}
 		</c:if>
 
 		<c:if test="${empty name}">
-			This is new change to demo the CI & CD process for Team
+			New changes Deployed on Oct 15 2018
 		</c:if>
     </p>
     <p>
@@ -41,15 +41,15 @@
 
   <div class="row">
 	<div class="col-md-4">
-		<h2>Changed to</h2>
-		<p>kOTI-new</p>
+		<h2>New Changes</h2>
+		<p>DEVOPS9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>changed</h2>
-		<p>KOTI-new</p>
+		<h2>NEW Changes </h2>
+		<p>DEVops9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
