@@ -41,21 +41,21 @@
 
   <div class="row">
 	<div class="col-md-4">
-		<h2>New Changes</h2>
+		<h2>SRINAKTH</h2>
 		<p>DEVOPS9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>NEW Changes </h2>
+		<h2>SRIKANTH </h2>
 		<p>DEVops9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>changed</h2>
+		<h2>SRIKANTH</h2>
 		<p>KOTI-new</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
