@@ -41,22 +41,22 @@
 
   <div class="row">
 	<div class="col-md-4">
-		<h2>SRINAKTH</h2>
-		<p>DEVOPS9</p>
+		<h2>HELLO</h2>
+		<p>Devops-9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>SRIKANTH </h2>
-		<p>DEVops9</p>
+		<h2>WELCOME TO </h2>
+		<p>Devops-9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
-		<h2>srikanth</h2>
-		<p>KOTI-new</p>
+		<h2>DEVOPS WORLD</h2>
+		<p>devops-9</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
