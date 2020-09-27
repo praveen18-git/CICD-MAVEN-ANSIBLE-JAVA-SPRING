@@ -28,7 +28,7 @@
 		</c:if>
 
 		<c:if test="${empty name}">
-			New changes Deployed on Oct 15 2018
+			New changes Deployed 27th Sep 2020
 		</c:if>
     </p>
     <p>
