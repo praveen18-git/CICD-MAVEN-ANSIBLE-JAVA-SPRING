@@ -7,11 +7,13 @@
      copy:
        src: /tmp/hello.war
        dest: /usr/apache-tomcat-8.5.35/webapps/
-   - name: Stop tomcat server
-     shell: /usr/local/bin/tomcatdown
-       
+              
     - name: restart tomcat server
       shell: /usr/local/bin/tomcatup
+      
+      register: command_output
+      
+      - debug: msg="{{command_output.stdout}}"
          
      
 
