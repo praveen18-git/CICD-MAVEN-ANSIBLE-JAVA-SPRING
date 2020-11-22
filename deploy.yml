@@ -9,7 +9,7 @@
        dest: /usr/apache-tomcat-8.5.35/webapps/
               
     - name: restart tomcat server
-      shell: /usr/local/bin/tomcatup
+      shell: sudo /usr/local/bin/tomcatup
       
       register: command_output
       
