@@ -1,6 +1,5 @@
 ---
 - hosts: myweb
-  become: true
   tasks:
     - name: ping
       command: echo "hi"
