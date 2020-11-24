@@ -1,5 +1,5 @@
 ---
-- hosts: web
+- hosts: myweb
   became: true
   tasks:
         
