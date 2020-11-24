@@ -1,19 +1,17 @@
 ---
 - hosts: myweb
-  became: true
+  become: true
   tasks:
-        
-   - name : copy the build artifacts of maven into tomcat webserver
-     copy:
-       src: /tmp/hello.war
-       dest: /usr/apache-tomcat-8.5.35/webapps/
-              
-    - name: restart tomcat server
-      shell: sudo /usr/local/bin/tomcatup
-      
-      register: command_output
-      
-      - debug: msg="{{command_output.stdout}}"
-         
-     
+    - name: ping
+      command: echo "hi"
 
+    - name: copy war to tomcat
+      copy:
+         src: /tmp/hello.war
+         dest: /opt/apache-tomcat-8.5.35/webapps/
+
+    - name: restart tomcat
+      shell: /opt/apache-tomcat-8.5.35/bin/startup.sh
+      register: std_out
+
+    - debug : msg={{std_out}}
